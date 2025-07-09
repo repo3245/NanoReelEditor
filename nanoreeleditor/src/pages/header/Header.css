@@ -1,0 +1,130 @@
+.header {
+    width: 100vw;
+    background-color: #FFEA00;
+    color: white;
+    padding: 1.5rem 0;
+}
+
+.header-content {
+    color: white;
+    display: flex;
+    width: 90%;
+}
+
+.header-nav {
+    color: white;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    position: relative;
+    margin-top: -6rem;
+    top: 7rem;
+}
+
+.header-logo {
+    font-size: 1.1rem;
+    font-weight: 200;
+    letter-spacing: 1px;
+    width: 40%;
+    margin-top: .5rem;
+}
+
+.header-nav img {
+    width: 3.20rem;
+    height: 3.20rem;
+    margin-right: 1rem;
+}
+
+.header-nav a:hover {
+    color: #00FF6A;
+}
+
+.header-container {
+    color: white;
+    display: flex;
+    margin: 0 auto;
+}
+
+.header-links {
+    color: white;
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    justify-content: space-between;
+    gap: 10rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-links li {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    transition: color 0.5s ease;
+}
+
+.header-links li:hover {
+    color: #00FF6A;
+}
+
+.signup-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    border-radius: 3rem;
+    padding: .78rem 1.5rem;
+}
+
+.signup-button button {
+    color: black;
+    text-decoration: none;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.signup-button button:hover {
+    color: #00FF6A;
+    transition: color 0.5s ease;
+}
+
+.modal-text-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-img {
+    width: 3.20rem;
+    height: 3.20rem;
+    padding-left: .2rem;
+    margin-bottom: .30rem;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.input,
+.inner-button1 {
+    padding: 10px;
+    font-size: .9rem;
+}
+
+.inner-button1 {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.inner-button1:hover {
+    background-color: #FFEA00;
+}

@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@100;200;300;400;500;600;700&display=swap");
+
+
+h1 {
+  font-size: 8.1rem;
+  letter-spacing: .07rem;
+}
+
+il,
+button {
+  color: white;
+  list-style: none;
+  text-decoration: none;
+}
+
+button,
+li,
+h3,
+p {
+  font-size: .90rem;
+}
+
+button,
+h1,
+h2,
+h3,
+li,
+p {
+  font-family: 'Instrument Sans', sans-serif;
+}
+
+.container-1 {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.container-2 {
+  width: 99%;
+  margin: 0 auto;
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {}
+
+
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}

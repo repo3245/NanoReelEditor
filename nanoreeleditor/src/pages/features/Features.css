@@ -1,0 +1,124 @@
+.features {
+    /* z-index: var(--z-fixed); */
+    width: 100vw;
+    height: 100vh;
+    background-color: #FFEA00;
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 1.2rem;
+}
+
+.features-item {}
+
+.features-item img {
+    width: 58rem;
+    height: 26rem;
+    object-fit: cover;
+    border-radius: 19px;
+}
+
+.features-item-1 {
+    position: relative;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+.features-item-2 {
+    position: relative;
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+
+}
+
+.features-item-3 {
+    position: relative;
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    margin-right: .5rem;
+}
+
+.features-item-4 {
+    position: relative;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    padding-top: 5rem;
+    padding-left: 2rem;
+}
+
+
+.features-title {
+    font-weight: 300;
+    width: 44rem;
+    margin-top: 2rem;
+    color: white;
+}
+
+.features-item-1-text-background {
+    position: absolute;
+    width: 20rem;
+    height: 26rem;
+    background-color: white;
+    border-radius: 17px 0px 0px 17px;
+    top: 0rem;
+    left: 0rem;
+}
+
+
+.features-item-2-text-background {
+    position: absolute;
+    width: 58rem;
+    height: 10rem;
+    background-color: white;
+    border-radius: 0px 0px 17px 17px;
+    left: 0rem;
+    bottom: 0.25rem;
+
+}
+
+.features-item-3-text-background {
+    position: absolute;
+    width: 20rem;
+    height: 26rem;
+    background-color: white;
+    border-radius: 0px 17px 17px 0px;
+    top: 0rem;
+    right: 0rem;
+
+}
+
+
+.features-text {
+    margin-top: -6.8rem;
+    width: 34rem;
+    line-height: 1.7rem
+}
+
+.features-item-1-text-background p {
+    padding: 2rem 2.5rem;
+    font-weight: 500;
+    color: black;
+    width: 10rem;
+    line-height: 1.4rem;
+}
+
+.features-item-2-text-background p {
+    padding: 1.5rem 2.5rem;
+    font-weight: 500;
+    color: black;
+    width: 40rem;
+    line-height: 1.4rem;
+
+}
+
+.features-item-3-text-background p {
+    padding: 2rem 2.5rem;
+    font-weight: 500;
+    color: black;
+    width: 10rem;
+    line-height: 1.4rem;
+    padding-top: 11rem;
+}
