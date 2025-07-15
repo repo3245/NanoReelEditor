@@ -9,7 +9,6 @@ import { Element } from 'react-scroll';
 import { GoogleOAuthProvider } from '@react-oauth/google';
 
 
-
 const App = () => {
   return (
     <>

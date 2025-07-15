@@ -2,7 +2,7 @@
     /* z-index: var(--z-fixed); */
     width: 100vw;
     height: 100vh;
-    background-color: #FFEA00;
+    background-color: rgb(244, 242, 239);
 }
 
 .about-content {
@@ -22,7 +22,7 @@
 
 .about_title {
     font-weight: 200;
-    color: white;
+    color: #00FF6A;
     margin: .47rem 0rem;
 }
 
@@ -46,20 +46,21 @@
     justify-self: start;
     gap: 1.2rem;
     padding: 1.6rem 1.6rem;
-    background: #fff;
+    background: #00FF6A;
     border-radius: 1.40rem;
     transition: background-color 0.3s ease;
     border: none;
+
 }
 
 .icon5 {
-    color: #00FF6A;
+    color: white;
     width: 1.9rem;
     height: 1.9rem;
 }
 
 .button2 p {
-    color: white;
+    color: black;
     width: 5.3rem;
 }
 
@@ -88,50 +89,61 @@
 
 .about-item-tile1 {
     background-color: #FFFF00;
+
 }
 
 .about-item-tile2 {
     background-color: #00FF6A;
+
 }
 
 .about-item-tile3 {
-    background-color: #000000;
+    background-color: #FFE100;
+
 }
 
 .about-item-tile4 {
     background-color: #FFFF00;
+
 }
 
 .about-item-tile5 {
-    background-color: #FFFF00;
+    background-color: #00FF6A;
+
 }
 
 .about-item-tile6 {
     background-color: #FFFF00;
+
 }
 
 .about-item-tile7 {
     background-color: #00FF6A;
+
 }
 
 .about-item-tile8 {
-    background-color: #000000;
+    background-color: #FFFF00;
+
 }
 
 .about-item-tile9 {
-    background-color: #FFFF00;
+    background-color: #FFE100;
+
 }
 
 .about-item-tile10 {
-    background-color: #000000;
+    background-color: #FFE100;
 }
 
 .about-item-tile11 {
     background-color: #FFFF00;
+
 }
 
 .about-item-tile12 {
     background-color: #00FF6A;
+
 }
 
 .about-item {
@@ -221,8 +233,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
-
 }
 
 .fade-button {
@@ -237,7 +247,11 @@
     width: 5.6rem;
     border-radius: .6rem;
     position: absolute;
+}
 
+.fade-button a {
+    text-decoration: none;
+    color: black;
 }
 
 .fade-button1,
@@ -369,7 +383,7 @@
 .about-item-description3,
 .about-item-description8,
 .about-item-description10 {
-    color: white;
+    color: black;
 }
 
 .about-item-description1,
@@ -390,62 +404,63 @@
     width: 14rem;
 }
 
+
 .about-item-description1 {
-    bottom: 4.8rem;
+    top: -12rem;
     left: 1.6rem;
 }
 
 .about-item-description2 {
-    bottom: 6.2rem;
+    top: -14.2rem;
     left: 1.6rem;
 }
 
 .about-item-description3 {
-    bottom: 3.1rem;
+    top: -10.35rem;
     left: 1.6rem;
 }
 
 .about-item-description4 {
-    bottom: 6rem;
+    top: -12rem;
     left: 1.6rem;
 }
 
 .about-item-description5 {
-    bottom: 6.2rem;
+    top: -14.2rem;
     left: 1.6rem;
 }
 
 .about-item-description6 {
-    bottom: 5.35rem;
+    top: -10.35rem;
     left: 1.6rem;
 }
 
 .about-item-description7 {
-    bottom: 4.87rem;
+    top: -12rem;
     left: 1.6rem;
 }
 
 .about-item-description8 {
-    bottom: 7.35rem;
+    top: -14.2rem;
     left: 1.6rem;
 }
 
 .about-item-description9 {
-    bottom: 5.39rem;
+    top: -10.35rem;
     left: 1.6rem;
 }
 
 .about-item-description10 {
-    bottom: 6rem;
+    top: -12rem;
     left: 1.6rem;
 }
 
 .about-item-description11 {
-    bottom: 7.35rem;
+    top: -14.2rem;
     left: 1.6rem;
 }
 
 .about-item-description12 {
-    bottom: 4.26rem;
+    top: -10.35rem;
     left: 1.6rem;
 }

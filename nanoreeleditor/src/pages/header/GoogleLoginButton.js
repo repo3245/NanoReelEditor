@@ -9,7 +9,7 @@ export const GoogleLoginButton = () => {
 
     return (
         <button className="custom-google-btn" onClick={() => login()}>
-            Sign in with Google!
+            Sign in with Google
         </button>
     );
 };

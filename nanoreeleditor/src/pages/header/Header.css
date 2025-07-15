@@ -1,18 +1,17 @@
 .header {
     width: 100vw;
-    background-color: #FFEA00;
+    background-color: rgb(244, 242, 239);
     color: white;
     padding: 1.5rem 0;
 }
 
 .header-content {
-    color: white;
     display: flex;
     width: 90%;
 }
 
 .header-nav {
-    color: white;
+    color: black;
     display: flex;
     align-items: start;
     flex-direction: column;
@@ -40,13 +39,13 @@
 }
 
 .header-container {
-    color: white;
+
     display: flex;
     margin: 0 auto;
 }
 
 .header-links {
-    color: white;
+
     display: flex;
     text-decoration: none;
     list-style: none;
@@ -57,7 +56,7 @@
 }
 
 .header-links li {
-    color: white;
+    color: black;
     text-decoration: none;
     cursor: pointer;
     transition: color 0.5s ease;
@@ -72,9 +71,18 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    background-color: white;
+    background-color: #00FF6A;
     border-radius: 3rem;
-    padding: .78rem 1.5rem;
+    padding: 12.48px 24px;
+    white-space: nowrap;
+
+}
+
+.signup-button p {
+    color: black;
+    font-weight: 500;
+    font-size: 3rem;
+
 }
 
 .signup-button button {
@@ -86,7 +94,7 @@
 }
 
 .signup-button button:hover {
-    color: #00FF6A;
+    color: white;
     transition: color 0.5s ease;
 }
 
@@ -107,24 +115,29 @@
 form {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 7px;
 }
 
 .input,
 .inner-button1 {
     padding: 10px;
     font-size: .9rem;
+    border-radius: 5px;
+
 }
 
 .inner-button1 {
     background-color: black;
     color: white;
     border: none;
-    border-radius: 4px;
+    border-radius: 9px;
     transition: background-color 0.3s ease;
     cursor: pointer;
+    font-weight: 500;
+    padding: 15px;
+    border-radius: 20px;
 }
 
 .inner-button1:hover {
-    background-color: #FFEA00;
+    color: #FFEA00;
 }

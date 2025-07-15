@@ -2,7 +2,7 @@
     /* z-index: var(--z-fixed); */
     width: 100vw;
     height: 100vh;
-    background-color: #FFEA00;
+    background-color: rgb(244, 242, 239);
 }
 
 .footer-content {
@@ -15,8 +15,8 @@
 .rectangle3 {
     height: 28rem;
     width: 100%;
-    border-radius: 3rem;
-    background-color: #00FF6A;
+    border-radius: 2rem;
+    background-color: #FFE100;
     position: relative;
 }
 

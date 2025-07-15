@@ -5,6 +5,8 @@ import { FaArrowRightLong } from "react-icons/fa6";
 import image1 from "../../assets/image1.png"; // Adjust the path as necessary
 import image2 from "../../assets/image2.png"; // Adjust the path as necessary
 import image3 from "../../assets/image3.png"; // Adjust the path as necessary
+import { ShimmerFeaturedGallery } from "react-shimmer-effects";
+
 
 const About = () => {
     const [activeVideo, setActiveVideo] = useState(null);
@@ -43,19 +45,34 @@ const About = () => {
     ];
 
     const description = [
-        "📉 80% of social media users prefer short-form videos over longer content.",
+        "📉 73% of consumers prefer short-form videos to learn about products.",
+        "🎬 91.8% of internet users watch videos weekly.",
+        "📱 65% of total video views are short-form.",
         "🎬 67% of content creators struggle to repurpose long-form content efficiently.",
-        "📱 TikTok & Instagram Reels account for over 60% of social media video engagement in 2025.",
-        "🎬 67% of content creators struggle to repurpose long-form content efficiently.",
-        "📲 92% of internet users watch video content weekly, with short-form accounting for 65% of total views.",
-        "📉 80% of social media users prefer short-form videos over longer content.",
-        "📲 92% of internet users watch video content weekly, with short-form accounting for 65% of total views.",
-        "📉 80% of social media users prefer short-form videos over longer content.",
-        "🎬 67% of content creators struggle to repurpose long-form content efficiently.",
-        "📉 80% of social media users prefer short-form videos over longer content.",
-        "🎬 67% of content creators struggle to repurpose long-form content efficiently.",
-        "📲 92% of internet users watch video content weekly, with short-form accounting for 65% of total views."
+        "📲 Short-form videos generate 2.5x more engagement than long-form.",
+        "📉 TikTok & Instagram Reels drive 60%+ of social video engagement.",
+        "📲 Avg. user spends 1 hr 16 min/day on short-form video.",
+        "📉 TikTok posts receive 73.7% more comments than Instagram Reels.",
+        "🎬 31% of marketers say short-form videos deliver highest ROI.",
+        "📉 Short-form video ads projected to surpass $99.4B in 2025.",
+        "🎬 Videos under 90 seconds retain 50% of viewers.",
+        "📲 60% of marketers say repurposed content generates more leads."
     ];
+
+    const hyperlinks = [
+        "https://www.yaguara.co/short-form-video-statistics/",
+        "https://www.oberlo.com/statistics/online-video-consumption-statistics",
+        "https://techjury.net/industry-analysis/video-consumption-statistics/",
+        "https://blog.docswrite.com/statistics-about-content-repurposing",
+        "https://firework.com/blog/short-form-video-statistics",
+        "https://vidico.com/news/short-form-video-statistics/",
+        "https://simplebeen.com/short-form-video-statistics/",
+        "https://socialinsider.io/blog/tiktok-vs-instagram-reels-statistics/",
+        "https://www.hubspot.com/",
+        "https://vidico.com/news/short-form-video-statistics/",
+        "https://firework.com/blog/short-form-video-statistics",
+        "https://blog.docswrite.com/statistics-about-content-repurposing"
+    ]
 
     const isValidVideoFormat = (src) => {
         const supportedFormats = ['.mov', '.mp4', '.webm', '.ogg'];
@@ -96,7 +113,7 @@ const About = () => {
 
                                     <div className="fade-button-container">
                                         <div className={`fade-button fade-button${index + 1} ${activeVideo === index ? 'fade-out' : ''}`}>
-                                            <p>Learn More</p>
+                                            <a href={hyperlinks[index]} target="_blank" rel="noopener noreferrer">Learn More</a>
                                         </div>
                                     </div>
                                 </div>

@@ -18,7 +18,7 @@ const Header = () => {
                 <div className="header-content">
                     <div className="header-nav">
                         <img
-                            src={image1}
+                            src={image2}
                             alt="Logo"
                         />
                         <h3 className="header-logo">Nano Reel Editor</h3>
@@ -47,7 +47,7 @@ const Header = () => {
                                 smooth={true}
                                 offset={-50}
                                 duration={500}> Contact </Link></li>
-                            <li className="signup-button"><button onClick={() => setShowModal(true)}>Sign Up</button>
+                            <li className="signup-button"><button onClick={() => setShowModal(true)}>Sign&nbsp;Up</button>
 
                             </li>
                             <Modal className="signup-button" show={showModal} onClose={() => setShowModal(false)} >
@@ -56,7 +56,7 @@ const Header = () => {
                                         alt="Logo" className="modal-img"></img>
                                 </h2>
 
-                                <p>You can place any JSX here—forms, alerts, animations, etc.</p>
+                                <p>Sign up to gain access to Nano Reel Editor!</p>
                                 <form onSubmit={(e) => {
                                     e.preventDefault();
                                     // Handle submission logic

@@ -16,7 +16,8 @@ button {
 button,
 li,
 h3,
-p {
+p,
+a {
   font-size: .90rem;
 }
 
@@ -25,7 +26,8 @@ h1,
 h2,
 h3,
 li,
-p {
+p,
+a {
   font-family: 'Instrument Sans', sans-serif;
 }
 
@@ -40,11 +42,7 @@ p {
 }
 
 
-
 @media (prefers-reduced-motion: no-preference) {}
-
-
-
 
 
 @keyframes App-logo-spin {
