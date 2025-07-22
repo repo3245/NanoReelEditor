@@ -21,7 +21,7 @@ const Header = () => {
                             src={image2}
                             alt="Logo"
                         />
-                        <h3 className="header-logo">Nano Reel Editor</h3>
+                        <h3 className="header-logo">VIDIO AI EDITOR</h3>
                     </div>
                     <div className="header-container">
                         <ul className="header-links">

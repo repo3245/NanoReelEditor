@@ -98,13 +98,13 @@ const Home = () => {
                                 </div>
                             </div>
                             <h1 className="title">
-                                NANO
+                                VIDIO
                             </h1>
                         </div>
 
                         <div className="line2-flex">
                             <h1 className="title">
-                                REEL
+                                AI
                             </h1>
                             <div className="rectangle2">
                                 {/* <IoNotificationsCircle className="icon2" /> */}
@@ -120,8 +120,7 @@ const Home = () => {
 
                         <div className="line3-flex">
                             <h1 className="title" id="editor-title">
-                                EDITOR
-                            </h1>
+                                EDITOR                            </h1>
                         </div>
 
                         <div className="button">

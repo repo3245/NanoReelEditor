@@ -28,11 +28,13 @@
 .features-item-1 {
     grid-column: 1 / 2;
     grid-row: 1 / 2;
+
 }
 
 .features-item-2 {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
+
 }
 
 /* .features-item-2 img {
@@ -44,6 +46,7 @@
 .features-item-3 {
     grid-column: 1 / 2;
     grid-row: 2 / 3;
+
 }
 
 .features-item-3 img {
@@ -66,6 +69,8 @@
     height: 26rem;
     background-color: white;
     border-radius: 17px 17px 17px 17px;
+    border: #FFE100 2px solid;
+    position: relative;
 }
 
 .features-item-2-text-background {
@@ -73,6 +78,8 @@
     height: 26rem;
     background-color: white;
     border-radius: 17px 17px 17px 17px;
+    border: #00FF6A 2px solid;
+    position: relative;
 }
 
 .features-item-3-text-background {
@@ -80,6 +87,8 @@
     height: 26rem;
     background-color: white;
     border-radius: 17px 17px 17px 17px;
+    border: #FFFF00 2px solid;
+    position: relative;
 }
 
 .features-title {
@@ -95,6 +104,32 @@
     line-height: 1.7rem
 }
 
+#one {
+    font-size: 4.3rem;
+    font-weight: 500;
+    position: absolute;
+    bottom: -1.7rem;
+    left: 11rem;
+    color: black
+}
+
+#two {
+    font-size: 4.3rem;
+    font-weight: 500;
+    position: absolute;
+    bottom: -1.7rem;
+    left: 11rem;
+    color: black
+}
+
+#three {
+    font-size: 4.3rem;
+    font-weight: 500;
+    position: absolute;
+    bottom: 14.5rem;
+    color: black
+}
+
 .features-item-1-text-background p {
     padding: 2rem 2.5rem;
     font-weight: 400;
@@ -104,7 +139,7 @@
 }
 
 .features-item-2-text-background p {
-    padding: 1.5rem 2.5rem;
+    padding: 2rem 2.5rem;
     font-weight: 400;
     color: black;
     width: 10rem;

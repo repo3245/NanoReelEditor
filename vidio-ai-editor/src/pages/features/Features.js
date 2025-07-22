@@ -19,26 +19,22 @@ const Features = () => {
                         <img src={FeaturesImage1} />
                         <div className="features-item-1-text-background">
                             <p>Narrative Arc Mapping:   Maps story flow from setup to resolution, highlighting peaks and quotes to craft emotionally rich, short-form content.</p>
-                            <p id='1'>1</p>
+                            <p id='one'>1</p>
                         </div>
 
                     </div>
                     <div className="features-item features-item-2">
                         <img src={FeaturesImage2} />
-
                         <div className="features-item-2-text-background">
                             <p>Tone Shift Spotlighting: Finds key mood changes in content, flagging them for dynamic highlights with suggested effects to boost impact.</p>
-                            <p id='2'>1</p>
+                            <p id='two'>2</p>
                         </div>
                     </div>
 
-
                     <div className="features-item features-item-3">
-
-
                         <div className="features-item-3-text-background">
                             <p>Contextual Highlight Detection: Spots plot shifts, emotions, and visual cues using AI to surface the most powerful, story-worthy moments.</p>
-                            <p id='3'>1</p>
+                            <p id='three'>3</p>
                         </div>
                         <img src={FeaturesImage3} />
                     </div>
